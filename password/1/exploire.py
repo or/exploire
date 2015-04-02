@@ -5,7 +5,7 @@ import time
 
 
 def run():
-    port = 10002
+    port = 10000
     charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ "
     while True:
         password = ''
