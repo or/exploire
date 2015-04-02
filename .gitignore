@@ -1,2 +1,5 @@
 .sconsign.dblite
 *.o
+*.pyc
+.docker-built
+bin
