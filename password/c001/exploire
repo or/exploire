@@ -4,7 +4,7 @@ import sys
 import time
 
 
-def run():
+def test_run():
     port = 10000
     charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ "
     while True:
@@ -38,4 +38,4 @@ def run():
                 break
 
 if __name__ == "__main__":
-    run()
+    test_run()

@@ -1,0 +1,5 @@
+Import("env")
+
+service = env.Program(target="bin/service", source=Glob("*.c"), LIBS=["m"])
+
+env.DockerBuilder(source=service)
